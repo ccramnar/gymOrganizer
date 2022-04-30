@@ -9,7 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "vue": "^3.2.13",
+    "vue-float-action-button": "^0.7.9",
+    "vue-navigation-bar": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
