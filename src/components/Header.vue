@@ -60,17 +60,20 @@ export default {
 </script>
 
 <style lang="less">
+	.header {
+		background-color: #a0c0e1;
+	}
     .menu_icon {
-		width: 30px;
-		height: 30px;
+		width: 50px;
+		height: 50px;
 		align-items: center;
 
 		background-color: #8c8c8c;
 
 		-webkit-mask-image: url("../assets/navBar/list.png");
 		mask-image: url("../assets/navBar/list.png");
-		-webkit-mask-size: 30px 30px;
-		mask-size: 30px 30px;
+		-webkit-mask-size: 50px 50px;
+		mask-size: 50px 50px;
 		-webkit-mask-position: center;
 		mask-position: center;
 
@@ -83,19 +86,19 @@ export default {
 		flex-flow: column nowrap;
 		justify-content: flex-start;
 		align-items: left; 
-        padding: 25px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
     .push {
-        width: 30px;
-		height: 30px;
+        width: 50px;
+		height: 50px;
 		align-items: center;
 
 		background-color: #8c8c8c;
 
 		-webkit-mask-image: url("../assets/navBar/push.png");
 		mask-image: url("../assets/navBar/push.png");
-		-webkit-mask-size: 30px 30px;
-		mask-size: 30px 30px;
+		-webkit-mask-size: 50px 50px;
+		mask-size: 50px 50px;
 		-webkit-mask-position: center;
 		mask-position: center;
 
@@ -104,16 +107,16 @@ export default {
 		}
     }
     .pull {
-        width: 30px;
-		height: 30px;
+        width: 50px;
+		height: 50px;
 		align-items: center;
 
 		background-color: #8c8c8c;
 
-		-webkit-mask-image: url("../assets/navBar/push.png");
-		mask-image: url("../assets/navBar/push.png");
-		-webkit-mask-size: 30px 30px;
-		mask-size: 30px 30px;
+		-webkit-mask-image: url("../assets/navBar/pull.png");
+		mask-image: url("../assets/navBar/pull.png");
+		-webkit-mask-size: 50px 50px;
+		mask-size: 50px 50px;
 		-webkit-mask-position: center;
 		mask-position: center;
 
@@ -122,16 +125,16 @@ export default {
 		}
     }
     .lower_body {
-        width: 30px;
-		height: 30px;
+        width: 50px;
+		height: 50px;
 		align-items: center;
 
 		background-color: #8c8c8c;
 
-		-webkit-mask-image: url("../assets/navBar/push.png");
-		mask-image: url("../assets/navBar/push.png");
-		-webkit-mask-size: 30px 30px;
-		mask-size: 30px 30px;
+		-webkit-mask-image: url("../assets/navBar/lowerBody.png");
+		mask-image: url("../assets/navBar/lowerBody.png");
+		-webkit-mask-size: 50px 50px;
+		mask-size: 50px 50px;
 		-webkit-mask-position: center;
 		mask-position: center;
 
@@ -140,16 +143,16 @@ export default {
 		}
     }
     .cardio {
-        width: 30px;
-		height: 30px;
+        width: 50px;
+		height: 50px;
 		align-items: center;
 
 		background-color: #8c8c8c;
 
-		-webkit-mask-image: url("../assets/navBar/push.png");
-		mask-image: url("../assets/navBar/push.png");
-		-webkit-mask-size: 30px 30px;
-		mask-size: 30px 30px;
+		-webkit-mask-image: url("../assets/navBar/cardio.png");
+		mask-image: url("../assets/navBar/cardio.png");
+		-webkit-mask-size: 50px 50px;
+		mask-size: 50px 50px;
 		-webkit-mask-position: center;
 		mask-position: center;
 
@@ -158,16 +161,16 @@ export default {
 		}
     }
     .start {
-        width: 30px;
-		height: 30px;
+        width: 50px;
+		height: 50px;
 		align-items: center;
 
 		background-color: #8c8c8c;
 
-		-webkit-mask-image: url("../assets/navBar/gym.png");
-		mask-image: url("../assets/navBar/gym.png");
-		-webkit-mask-size: 30px 30px;
-		mask-size: 30px 30px;
+		-webkit-mask-image: url("../assets/navBar/home.png");
+		mask-image: url("../assets/navBar/home.png");
+		-webkit-mask-size: 50px 50px;
+		mask-size: 50px 50px;
 		-webkit-mask-position: center;
 		mask-position: center;
 

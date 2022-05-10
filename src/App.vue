@@ -50,7 +50,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang=less>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -59,4 +59,23 @@ export default {
   color: #2c3e50;
   margin-top: 0px;
 }
+.toggle_triangle {
+		width: 20px;
+		height: 20px;
+		align-items: center;
+
+		background-color: #8c8c8c;
+
+		-webkit-mask-image: url("./assets/navBar//push.png");
+		mask-image: url("./assets/navBar/push.png");
+		-webkit-mask-size: 20px 20px;
+		mask-size: 20px 20px;
+		-webkit-mask-position: center;
+		mask-position: center;
+		rotate: 270deg;
+
+		&:hover {
+			background-color: #acacac;
+		}
+	}
 </style>
